@@ -9,6 +9,7 @@
  - Lastly, you will need to make a config.py document which will contain all the api keys, passwords, and email contacts. The format should look something like this:
 
     ```python
+    #Find these api keys under your twitter developer account, and enter them in here:
     CONSUMER_KEY = 'your_twitter_api_keys'
     CONSUMER_SECRET = 'your_twitter_api_keys'
     ACCESS_KEY = 'your_twitter_api_keys'
@@ -26,7 +27,7 @@
 
     WEATHER_API_KEY = "your_weather_api"
     ```
-- You should be ready to go. Run the program by saying `python main.py` in your terminal
+- You should be ready to go. Run the program by tyoing `python main.py` in your terminal.
 
 Enjoy!
 
