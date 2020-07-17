@@ -9,18 +9,19 @@
  - Lastly, you will need to make a config.py document which will contain all the api keys, passwords, and email contacts. The format should look something like this:
 
  ```python
-CONSUMER_KEY = 'FIi7QWChnbWDsoKwLpQdA8eKp'
-CONSUMER_SECRET = 'd2ONTfoKcR9ZlSlDCMaScrS7edweajaolUHfxpIVdawKCNEq80'
-ACCESS_KEY = '1210674626319155205-AqC28xW8hfrRw8OQESP9mOTzVtHI1z'
-ACCESS_SECRET = 'ztKJJ6AqWY1TF9rod8zLR29MEpgQ6ZCXz7yUPw4ds0XPa'
+CONSUMER_KEY = 'your_keys'
+CONSUMER_SECRET = 'your_keys'
+ACCESS_KEY = 'your_keys'
+ACCESS_SECRET = 'your_keys'
 
-EMAIL_USERNAME = 'sunnyr447@gmail.com'
-EMAIL_PASSWORD = 'JPNAGAr6'
+EMAIL_USERNAME = 'your_username'
+EMAIL_PASSWORD = 'your_password'
 
+#These are example contacts:
+#Strictly follow this format
 email_recipients = {
-    'dad': ['svr4@yahoo.com', 'Sunil Rao'],
-    'mom': ['shobhasr6@gmail.com', 'Shobha Rao'],
-    'avani': ['skystarry569@gmail.com', 'Avani Rao']
+    'example': ['example@example.com', 'Full Name'],
+    'Squidward': ['squidward@something.com', 'Squidward Tentacles'],
 }
 
 WEATHER_API_KEY = "e52d04faf9791cb59328bb593790255b"
