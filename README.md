@@ -1,7 +1,7 @@
 # VoiceAssistant
- A fully functional chatbot that can handle many features and do several tasks for you - just with some simple voice commands. Tasks include: Playing music, drafting emails, sending twerets, and much more!
+ A fully functional chatbot that can handle many features and do several tasks for you - just with some simple voice commands. Tasks include: Playing music, drafting emails, sending tweets, and much more!
 
- Setup:
+ **Setup**:
 
  - Install the dependencies using `pip install -r requirements.txt`
  - If you're planning on using the bot to make tweets, make sure to create a twitter developers accunt if you haven't already. You can find it [here](https://https://developer.twitter.com/en)
@@ -26,6 +26,7 @@
 
     WEATHER_API_KEY = "your_weather_api"
     ```
-- You should be ready to go. Run the program by saying `python main.py`
+- You should be ready to go. Run the program by saying `python main.py` in your terminal
 
 Enjoy!
+
