@@ -6,7 +6,7 @@ import webbrowser
 import smtplib
 
 import tweepy
-import credentials
+import config
 
 import requests
 import json
@@ -14,9 +14,9 @@ import json
 from pygame import mixer
 from time import sleep
 
-auth = tweepy.OAuthHandler(credentials.CONSUMER_KEY,
-                           credentials.CONSUMER_SECRET)
-auth.set_access_token(credentials.ACCESS_KEY, credentials.ACCESS_SECRET)
+auth = tweepy.OAuthHandler(config.CONSUMER_KEY,
+                           config.CONSUMER_SECRET)
+auth.set_access_token(config.ACCESS_KEY, config.ACCESS_SECRET)
 api = tweepy.API(auth)
 
 
@@ -170,7 +170,7 @@ def email():
     computerSay('Who is the recipient?')
     recipient = userCommand().lower()
 
-    for person in credentials.email_recipients:
+    for person in config.email_recipients:
         if person in recipient:
             computerSay('What should I say?')
             content = userCommand()
@@ -185,12 +185,12 @@ def email():
             mail.starttls()
 
             # login
-            mail.login(credentials.EMAIL_USERNAME, credentials.EMAIL_PASSWORD)
+            mail.login(config.EMAIL_USERNAME, config.EMAIL_PASSWORD)
 
             # send message
 
             mail.sendmail(
-                credentials.email_recipients[person][1], credentials.email_recipients[person][0], content)
+                config.email_recipients[person][1], config.email_recipients[person][0], content)
 
             # end mail connection
             mail.close()
@@ -212,7 +212,7 @@ def findWeather():
 
     # complete_url variable to store
     # complete url address
-    complete_url = f"{base_url}appid={credentials.WEATHER_API_KEY}&q={city_name}&units=imperial"
+    complete_url = f"{base_url}appid={config.WEATHER_API_KEY}&q={city_name}&units=imperial"
 
     # get method of requests module
     # return response object
