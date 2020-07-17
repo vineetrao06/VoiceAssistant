@@ -27,7 +27,7 @@
 
     WEATHER_API_KEY = "your_weather_api_key"
     ```
-- You should be ready to go. Run the program by entering `python main.py` in your terminal.
+- You should be ready to go. Navigate to the directory and run the program by entering `python main.py` in your terminal.
 
 Enjoy!
 
