@@ -201,9 +201,6 @@ def email():
         computerSay('I don\'t know what you mean!')
 
 
-computerSay('I am ready for your command')
-
-
 def findWeather():
     computerSay('Give me a city name:')
 
@@ -257,6 +254,8 @@ def generateMeme():
     url = response['url']
     webbrowser.open(url)
     computerSay('There! You happy?')
+
+computerSay('I am ready for your command')
 
 while True:
     assistant(userCommand())
