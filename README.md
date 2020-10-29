@@ -22,8 +22,9 @@ A fully functional voice assistant that can handle many features and do several 
   #These are example contacts:
   #Strictly follow this format
   email_recipients = {
-      'First Name': ['Email', 'Full Name'],
-      'Squidward': ['squidward@something.com', 'Squidward Tentacles'],
+      #here is an example
+      'John': ['johnsmith@gmail.com', 'John Smith'],
+      'Bob': ['bobsmith@gmail.com', 'Bob Smith'],
   }
 
   WEATHER_API_KEY = "your_weather_api_key"
