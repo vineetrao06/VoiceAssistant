@@ -1,6 +1,6 @@
 # VoiceAssistant
 
-A fully functional voice assistant that can handle many features and do several tasks for you - just with some simple voice commands. Tasks include: Playing music, drafting emails, sending tweets, and much more!
+A fully functional voice assistant that can handle many features and do several tasks for you - just with some simple voice commands. Tasks include: Playing music, drafting emails, sending tweets, and much more.
 
 **Setup**:
 
